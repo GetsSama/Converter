@@ -10,86 +10,66 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/ApachePOI/poi_jar/poi-5.0.0" />
+          <root url="file://D:/Apache/Apache POI/poi-5.0.0" />
         </CLASSES>
         <JAVADOC>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/ApachePOI/poi_jar/poi-5.0.0/docs/apidocs/dev" />
+          <root url="file://D:/Apache/Apache POI/poi-5.0.0/docs/apidocs/dev" />
         </JAVADOC>
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/ApachePOI/poi_jar/poi-5.0.0" recursive="false" />
+        <jarDirectory url="file://D:/Apache/Apache POI/poi-5.0.0" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-codec-1.15" />
+          <root url="file://D:/Apache/Apache Common/commons-codec-1.15-bin/commons-codec-1.15" />
+          <root url="file://D:/Apache/Apache Common/commons-math3-3.6.1-bin/commons-math3-3.6.1" />
         </CLASSES>
         <JAVADOC>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-codec-1.15/apidocs" />
+          <root url="file://D:/Apache/Apache Common/commons-codec-1.15-bin/commons-codec-1.15/apidocs" />
+          <root url="file://D:/Apache/Apache Common/commons-math3-3.6.1-bin/commons-math3-3.6.1/docs/apidocs" />
         </JAVADOC>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-codec-1.15" />
+          <root url="file://D:/Apache/Apache Common/commons-codec-1.15-bin/commons-codec-1.15" />
+          <root url="file://D:/Apache/Apache Common/commons-math3-3.6.1-bin/commons-math3-3.6.1" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/commons-codec-1.15" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/commons-codec-1.15" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://D:/Apache/Apache Common/commons-codec-1.15-bin/commons-codec-1.15" recursive="false" />
+        <jarDirectory url="file://D:/Apache/Apache Common/commons-math3-3.6.1-bin/commons-math3-3.6.1" recursive="false" />
+        <jarDirectory url="file://D:/Apache/Apache Common/commons-codec-1.15-bin/commons-codec-1.15" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://D:/Apache/Apache Common/commons-math3-3.6.1-bin/commons-math3-3.6.1" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-math3-3.6.1" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-math3-3.6.1/docs/apidocs" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-math3-3.6.1" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/commons-math3-3.6.1" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/commons-math3-3.6.1" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-collections4-4.4" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-collections4-4.4/apidocs" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-collections4-4.4" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/commons-collections4-4.4" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/commons-collections4-4.4" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/xmlbeans-5.0.1/lib" />
+          <root url="file://D:/Apache/xmlbeans-5.0.1/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/xmlbeans-5.0.1/lib" />
+          <root url="file://D:/Apache/xmlbeans-5.0.1/lib" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/xmlbeans-5.0.1/lib" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/xmlbeans-5.0.1/lib" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://D:/Apache/xmlbeans-5.0.1/lib" recursive="false" />
+        <jarDirectory url="file://D:/Apache/xmlbeans-5.0.1/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-compress-1.21" />
+          <root url="file://D:/Apache/Apache Common/commons-collections4-4.4" />
+          <root url="file://D:/Apache/Apache Common/commons-compress-1.21" />
         </CLASSES>
         <JAVADOC>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-compress-1.21/apidocs" />
+          <root url="file://D:/Apache/Apache Common/commons-collections4-4.4/apidocs" />
+          <root url="file://D:/Apache/Apache Common/commons-compress-1.21/apidocs" />
         </JAVADOC>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../../Program Files/Apache/commons-compress-1.21" />
+          <root url="file://D:/Apache/Apache Common/commons-collections4-4.4" />
+          <root url="file://D:/Apache/Apache Common/commons-compress-1.21" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/commons-compress-1.21" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../Program Files/Apache/commons-compress-1.21" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://D:/Apache/Apache Common/commons-collections4-4.4" recursive="false" />
+        <jarDirectory url="file://D:/Apache/Apache Common/commons-compress-1.21" recursive="false" />
+        <jarDirectory url="file://D:/Apache/Apache Common/commons-collections4-4.4" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://D:/Apache/Apache Common/commons-compress-1.21" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>

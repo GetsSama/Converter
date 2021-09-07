@@ -13,6 +13,7 @@ public class DataTxt
     private ArrayList<String> arrayOfString;
     private String delim;
     private int numberRows = 0, numberColoms = 0;
+    private List<double[]> rowsArr = new ArrayList<>();
 
     DataTxt(String pathToFileTxt)
     {
@@ -20,6 +21,7 @@ public class DataTxt
         if (isRightFormatTxt())
         {
             arrayOfString = txtToArrayOfString();
+            parseData();
         }
     }
 
@@ -30,9 +32,14 @@ public class DataTxt
         try (FileInputStream input = new FileInputStream(path))
         {
             Scanner scn  = new Scanner(input);
+            int i=1;
             while (scn.hasNext())
+            {
                 Rows.add(scn.nextLine());
-            scn.close();
+                System.out.println("Read " + i + " line");
+                i++;
+            }
+                scn.close();
         }
         catch (FileNotFoundException e)
         {
@@ -143,10 +150,13 @@ public class DataTxt
         return strArr;
     }
 
-    public List<double[]> getData()
+    public List<double[]> getData(){return rowsArr;}
+
+    private List<double[]> parseData()
     {
+        System.out.println("Parsing data");
         int count = 1;
-        List<double[]> rowsArr = new ArrayList<>();
+        //List<double[]> rowsArr = new ArrayList<>();
 
         for (int j=1; j<numberRows; j++)
         {
