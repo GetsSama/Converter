@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class DataTxt
+public class DataReader
 {
     private String path;
     private ArrayList<String> arrayOfString;
@@ -15,14 +15,9 @@ public class DataTxt
     private int numberRows = 0, numberColoms = 0;
     private List<double[]> rowsArr = new ArrayList<>();
 
-    DataTxt(String pathToFileTxt)
+    DataReader(String pathToFileTxt)
     {
         path = pathToFileTxt;
-        if (isRightFormatTxt())
-        {
-            arrayOfString = txtToArrayOfString();
-            parseData();
-        }
     }
 
     private ArrayList<String> txtToArrayOfString ()
@@ -131,27 +126,6 @@ public class DataTxt
         return ",";
     }
 
-    public int getNumberOfRows()
-    {
-        return numberRows;
-    }
-    public int getNumberOfColoms() {return numberColoms;}
-
-    public String[] getHeader()
-    {
-        Scanner scn = new Scanner(arrayOfString.get(0));
-        scn.useDelimiter(delim);
-        String[] strArr = new String[numberColoms];
-
-        for (int i=0; i<numberColoms; i++)
-            strArr[i] = scn.next();
-
-        scn.close();
-        return strArr;
-    }
-
-    public List<double[]> getData(){return rowsArr;}
-
     private List<double[]> parseData()
     {
         System.out.println("Parsing data");
@@ -180,6 +154,38 @@ public class DataTxt
             rowsArr.add(row);
         }
         return rowsArr;
+    }
+
+    public int getNumberOfRows()
+    {
+        return numberRows;
+    }
+    public int getNumberOfColoms() {return numberColoms;}
+
+    public String[] getHeader()
+    {
+        Scanner scn = new Scanner(arrayOfString.get(0));
+        scn.useDelimiter(delim);
+        String[] strArr = new String[numberColoms];
+
+        for (int i=0; i<numberColoms; i++)
+            strArr[i] = scn.next();
+
+        scn.close();
+        return strArr;
+    }
+
+    public List<double[]> getData(){return rowsArr;}
+
+
+
+    public void readData ()
+    {
+        if (isRightFormatTxt())
+        {
+            arrayOfString = txtToArrayOfString();
+            parseData();
+        }
     }
 
 }

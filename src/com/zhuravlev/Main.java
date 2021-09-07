@@ -20,7 +20,7 @@ public class Main {
         String path = scn.nextLine();
         scn.close();
 
-        DataTxt data = new DataTxt(path);
+        DataReader data = new DataReader(path);
 
         XSSFWorkbook book = new XSSFWorkbook();
         FileOutputStream fileOut = new FileOutputStream(path.replace("txt", "xlsx"));
